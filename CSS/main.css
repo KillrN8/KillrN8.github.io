@@ -1,0 +1,393 @@
+body {
+	background-image: url(../img/background.jpg);
+	background-size:100% 800px;;
+	background-repeat: no-repeat;
+}
+#suprise {
+	color: #ff6600;
+	margin-left: 37.5%;
+	visibility: hidden;
+}
+#suprise.visible {
+	visibility: visible;
+}
+h1 {
+	color: #fff;
+	font-size: 20px;
+	padding-left: 10px;
+}
+p {
+	color: #fff;
+}
+h2 {
+	color: #fff;
+}
+span {
+	color: #fff;
+}
+.sClick {
+	background: none;
+	border:none;
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: 70%;
+}
+.skyrim {
+	width: 400px;
+	height: 400px;
+}
+#leather {
+	width: 99%.1;
+	height: 90px;
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #000;
+	overflow: hidden;
+}
+#leatherBuy {
+	width: 100%;
+	height: 150%;
+	color: rgba(0,0,0,0);
+	background-image: url(../img/leather.jpg);
+	background-size:100% 100%;
+}
+#ironA {
+	width: 99%.1;
+	height: 90px;
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #000;
+	overflow: hidden;
+}
+#ironABuy {
+	width: 100%;
+	height: 150%;
+	color: rgba(0,0,0,0);
+	background-image: url(../img/ironA.jpg);
+	background-size:100% 100%;
+}
+#steelA {
+	width: 99%.1;
+	height: 90px;
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #000;
+	overflow: hidden;
+}
+#steelABuy {
+	width: 100%;
+	height: 150%;
+	color: rgba(0,0,0,0);
+	background-image: url(../img/steelA.jpg);
+	background-size:100% 100%;
+}
+#steelpA {
+	width: 99%.1;
+	height: 90px;
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #000;
+	overflow: hidden;
+}
+#steelpABuy {
+	width: 100%;
+	height: 150%;
+	color: rgba(0,0,0,0);
+	background-image: url(../img/steelpA.jpg);
+	background-size:100% 100%;
+}
+#dwarvenA {
+	width: 99%.1;
+	height: 90px;
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #000;
+	overflow: hidden;
+}
+#dwarvenABuy {
+	width: 100%;
+	height: 150%;
+	color: rgba(0,0,0,0);
+	background-image: url(../img/dwarvenA.jpg);
+	background-size:100% 100%;
+}
+#orcishA {
+	width: 99%.1;
+	height: 90px;
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #000;
+	overflow: hidden;
+}
+#orcishABuy {
+	width: 100%;
+	height: 150%;
+	color: rgba(0,0,0,0);
+	background-image: url(../img/orcishA.jpg);
+	background-size:100% 100%;
+}
+#ebonyA {
+	width: 99%.1;
+	height: 90px;
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #000;
+	overflow: hidden;
+}
+#ebonyABuy {
+	width: 100%;
+	height: 150%;
+	color: rgba(0,0,0,0);
+	background-image: url(../img/ebonyA.jpg);
+	background-size:100% 100%;
+}
+#daedricA {
+	width: 99%.1;
+	height: 90px;
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #000;
+	overflow: hidden;
+}
+#daedricABuy {
+	width: 100%;
+	height: 150%;
+	color: rgba(0,0,0,0);
+	background-image: url(../img/daedricA.jpg);
+	background-size:100% 100%;
+}
+#dragonA {
+	width: 99%.1;
+	height: 90px;
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #000;
+	overflow: hidden;
+}
+#dragonABuy {
+	width: 100%;
+	height: 150%;
+	color: rgba(0,0,0,0);
+	background-image: url(../img/dragonA.jpg);
+	background-size:100% 100%;
+}
+#wooden {
+	width: 99.1%;
+	height: 90px;
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #000;
+}
+#woodBuy {
+	width: 100%;
+	height: 80%;
+	color: rgba(0,0,0,0);
+	background-image: url(../img/wooden.jpg);
+	background-size:100% 100%;
+}
+#ironS {
+	width: 99.1%;
+	height: 90px;
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #000;
+	overflow: hidden;
+}
+#ironSBuy {
+	width: 100%;
+	height: 80%;
+	color: rgba(0,0,0,0);
+	background-image: url(../img/ironS.jpg);
+	background-size:100% 100%;
+}
+#steelS {
+	width: 99.1%;
+	height: 90px;
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #000;
+	overflow: hidden;
+}
+#steelSBuy {
+	width: 100%;
+	height: 80%;
+	color: rgba(0,0,0,0);
+	background-image: url(../img/steelS.jpg);
+	background-size:100% 100%;
+}
+#steelpS {
+	width: 99.1%;
+	height: 90px;
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #000;
+	overflow: hidden; 
+}
+#steelpSBuy {
+	width: 100%;
+	height: 80%;
+	color: rgba(0,0,0,0);
+	background-image: url(../img/steelpS.jpg);
+	background-size:100% 100%;
+}
+#dwarvenS {
+	width: 99.1%;
+	height: 90px;
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #000;
+	overflow: hidden;
+}
+#dwarvenSBuy {
+	width: 100%;
+	height: 80%;
+	color: rgba(0,0,0,0);
+	background-image: url(../img/dwarvenS.jpg);
+	background-size:100% 100%;
+}
+#orcishS {
+	width: 99.1%;
+	height: 90px;
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #000;
+	overflow: hidden;
+}
+#orcishSBuy {
+	width: 100%;
+	height: 80%;
+	color: rgba(0,0,0,0);
+	background-image: url(../img/orcishS.jpg);
+	background-size:100% 100%;
+}
+#ebonyS {
+	width: 99.1%;
+	height: 90px;
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #000;
+	overflow: hidden;
+}
+#ebonySBuy {
+	width: 100%;
+	height: 80%;
+	color: rgba(0,0,0,0);
+	background-image: url(../img/ebonyS.jpg);
+	background-size:100% 100%;
+}
+#daedricS {
+	width: 99.1%;
+	height: 90px;
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #000;
+	overflow: hidden;
+}
+#daedricSBuy {
+	width: 100%;
+	height: 80%;
+	color: rgba(0,0,0,0);
+	background-image: url(../img/daedricS.jpg);
+	background-size:100% 100%;
+}
+#dragonS {
+	width: 99.1%;
+	height: 90px;
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #000;
+	overflow: hidden;
+}
+#dragonSBuy {
+	width: 100%;
+	height: 80%;
+	color: rgba(0,0,0,0);
+	background-image: url(../img/dragonS.jpg);
+	background-size:100% 100%;
+}
+#sps {
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	width: 32%;
+	position: absolute;
+	left: 33.5%;
+	background-image: url(../img/septims.jpg);
+	background-size:100% 100px;;
+}
+#ss {
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	width: 32%;
+	position: absolute;
+	left: 67%;
+	background-color: #000;
+}
+#sView {
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	width: 32%;
+	background-color: #000;
+}
+#sClick {
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	width: 32%;
+	position: absolute;
+	left: 33.5%;
+	top: 90px;
+	height: 550px;
+	background-image: url(../img/scenery.jpg);
+	background-size:100% 100%;
+}
+#spc {
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	width: 33%;
+	position: absolute;
+	left: 67%;
+	width: 32%;
+	top: 90px;
+	height: 550px;
+	overflow-y: scroll;
+	background-color: #000;
+}
+#sc {
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	width: 31.5%;
+	position: absolute;
+	top: 90px;
+	height: 550px;
+	overflow-y: scroll;
+	background-color: #000;
+}
+#randomevent {
+	background-color: yellow;
+	text-align: center;
+	margin-left: 29%;
+}
