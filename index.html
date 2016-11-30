@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="icon" href="img/skyrim.ico">
+		<title> 0 septims </title>
+	</head>
+	
+	<body>
+		<div id="sps">
+		
+			<h1> Septims: <span id="septims">0</span> </h1>
+		
+		</div>
+		
+		<div id="ss">
+		
+			<h1> Septims Per Click (SPC): + <span id="septimpc">1</span></h1>
+		
+		</div>
+		
+		<div id="sView">
+		
+			<h1> Septims Per Second (SPS): + <span id="septimps">0</span></h1>
+		
+		</div>
+		
+		<div id="sClick">
+			
+			<button onClick="sClick(x)" class="sClick"> <img class="skyrim" src="img/skyrim.png"> </button>
+			
+			<button onclick="hide()" id="randomevent"> Click me for free septims! </button>
+		
+		</div>
+		
+		<div id="spc">
+		
+			<p> Septims Per Click </p>
+			
+				<div id="wooden">
+		
+					<span>Wooden Sword, Gives +3, Cost: <span id="woodCost">500</span></span>
+		
+					<br>
+		
+					<button id="woodBuy" onclick="buyWood()"> . </button>
+		
+				</div>
+				
+				<div id="ironS">
+				
+					<span>Iron Sword, Gives +15, Cost: <span id="ironSCost">6500</span></span>
+					
+					<br>
+					
+					<button id="ironSBuy" onclick="buyironS()"> . </button>
+					
+				</div>
+				
+				<div id="steelS">
+				
+					<span>Steel Sword, Gives +71, Cost: <span id="steelSCost">25000</span></span>
+					
+					<br>
+					
+					<button id="steelSBuy" onclick="buysteelS()"> . </button>
+					
+				</div>
+				
+				<div id="steelpS">
+				
+					<span>Skyforge Steel Sword, Gives +98, Cost: <span id="steelpSCost">90000</span></span>
+					
+					<br>
+					
+					<button id="steelpSBuy" onclick="buysteelpS()"> . </button>
+					
+				</div>
+				
+				<div id="dwarvenS">
+				
+					<span>Dwarven Sword, Gives +239, Cost: <span id="dwarvenSCost">230000</span></span>
+					
+					<br>
+					
+					<button id="dwarvenSBuy" onclick="buydwarvenS()"> . </button>
+					
+				</div>
+				
+				<div id="orcishS">
+				
+					<span>Orcish Sword, Gives +692, Cost: <span id="orcishSCost">870000</span></span>
+					
+					<br>
+					
+					<button id="orcishSBuy" onclick="buyorcishS()"> . </button>
+					
+				</div>
+				
+				<div id="ebonyS">
+				
+					<span>Ebony Sword, Gives +952, Cost: <span id="ebonySCost">3000000</span></span>
+					
+					<br>
+					
+					<button id="ebonySBuy" onclick="buyebonyS()"> . </button>
+					
+				</div>
+				
+				<div id="daedricS">
+				
+					<span>Daedric Sword, Gives +1531, Cost: <span id="daedricSCost">15000000</span></span>
+					
+					<br>
+					
+					<button id="daedricSBuy" onclick="buydaedricS()"> . </button>
+					
+				</div>
+				
+				<div id="dragonS">
+				
+					<span>Dragon Sword, Gives +2500, Cost: <span id="dragonSCost">50000000</span></span>
+					
+					<br>
+					
+					<button id="dragonSBuy" onclick="buydragonS()"> . </button>
+					
+				</div>
+		</div>
+		
+		<div id="sc">
+		
+			<p> Septims Per Second </p>
+			
+				<div id="leather">
+				
+					<span>Leather Armor, Gives +1, Cost: <span id="leatherCost">10</span></span>
+					
+					<br>
+					
+					<button id="leatherBuy" onClick="buyLeather()"> . </button>
+			
+				</div>
+				
+				<div id="ironA">
+				
+					<span>Iron Armor, Gives +10, Cost: <span id="ironACost">2500</span></span>
+					
+					<br>
+					
+					<button id="ironABuy" onclick="buyironA()"> . </button>
+				
+				</div>
+				
+				<div id="steelA">
+				
+					<span>Steel Armor, Gives +43, Cost: <span id="steelACost">15000</span></span>
+					
+					<br>
+					
+					<button id="steelABuy" onclick="buysteelA()"> . </button>
+				
+				</div>
+				
+				<div id="steelpA">
+				
+					<span>Steel Plate Armor, Gives +89, Cost: <span id="steelpACost">55000</span></span>
+					
+					<br>
+					
+					<button id="steelpABuy" onclick="buysteelpA()"> . </button>
+				
+				</div>
+				
+				<div id="dwarvenA">
+				
+					<span>Dwarven Armor, Gives +172, Cost: <span id="dwarvenACost">150000</span></span>
+					
+					<br>
+					
+					<button id="dwarvenABuy" onclick="buydwarvenA()"> . </button>
+				
+				</div>
+				
+				<div id="orcishA">
+				
+					<span>Orcish Armor, Gives +420, Cost: <span id="orcishACost">500000</span></span>
+					
+					<br>
+					
+					<button id="orcishABuy" onclick="buyorcishA()"> . </button>
+				
+				</div>
+				
+				<div id="ebonyA">
+				
+					<span>Ebony Armor, Gives +821, Cost: <span id="ebonyACost">1000000</span></span>
+					
+					<br>
+					
+					<button id="ebonyABuy" onclick="buyebonyA()"> . </button>
+				
+				</div>
+				
+				<div id="daedricA">
+				
+					<span>Daedric Armor, Gives +1291, Cost: <span id="daedricACost">8000000</span></span>
+					
+					<br>
+					
+					<button id="daedricABuy" onclick="buydaedricA()"> . </button>
+				
+				</div>
+				
+				<div id="dragonA">
+				
+					<span>Dragon Armor, Gives +2112, Cost: <span id="dragonACost">35000000</span></span>
+					
+					<br>
+					
+					<button id="dragonABuy" onclick="buydragonA()"> . </button>
+				
+				</div>
+		
+		</div>
+	</body>
+	
+	<script src="js/click.js"></script>
+	<script src="js/randomevent.js"></script>
+	<script src="js/save.js"></script>
+	<script src="js/leather.js"></script>
+	<script src="js/wooden.js"></script>
+	<script src="js/ironA.js"></script>
+	<script src="js/ironS.js"></script>
+	<script src="js/steelS.js"></script>
+	<script src="js/steelpS.js"></script>
+	<script src="js/dwarvenS.js"></script>
+	<script src="js/orcishS.js"></script>
+	<script src="js/ebonyS.js"></script>
+	<script src="js/daedricS.js"></script>
+	<script src="js/dragonS.js"></script>
+	<script src="js/steelA.js"></script>
+	<script src="js/steelpA.js"></script>
+	<script src="js/dwarvenA.js"></script>
+	<script src="js/orcishA.js"></script>
+	<script src="js/ebonyA.js"></script>
+	<script src="js/daedricA.js"></script>
+	<script src="js/dragonA.js"></script>
+	
+	
+</html>
+</html>
