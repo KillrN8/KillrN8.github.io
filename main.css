@@ -1,5 +1,5 @@
 body {
-	background-image: url(../img/background.jpg);
+	background-image: url(background.jpg);
 	background-size:100% 800px;;
 	background-repeat: no-repeat;
 }
@@ -50,7 +50,7 @@ span {
 	width: 100%;
 	height: 150%;
 	color: rgba(0,0,0,0);
-	background-image: url(../img/leather.jpg);
+	background-image: url(leather.jpg);
 	background-size:100% 100%;
 }
 #ironA {
@@ -66,7 +66,7 @@ span {
 	width: 100%;
 	height: 150%;
 	color: rgba(0,0,0,0);
-	background-image: url(../img/ironA.jpg);
+	background-image: url(ironA.jpg);
 	background-size:100% 100%;
 }
 #steelA {
@@ -82,7 +82,7 @@ span {
 	width: 100%;
 	height: 150%;
 	color: rgba(0,0,0,0);
-	background-image: url(../img/steelA.jpg);
+	background-image: url(steelA.jpg);
 	background-size:100% 100%;
 }
 #steelpA {
@@ -98,7 +98,7 @@ span {
 	width: 100%;
 	height: 150%;
 	color: rgba(0,0,0,0);
-	background-image: url(../img/steelpA.jpg);
+	background-image: url(steelpA.jpg);
 	background-size:100% 100%;
 }
 #dwarvenA {
@@ -114,7 +114,7 @@ span {
 	width: 100%;
 	height: 150%;
 	color: rgba(0,0,0,0);
-	background-image: url(../img/dwarvenA.jpg);
+	background-image: url(dwarvenA.jpg);
 	background-size:100% 100%;
 }
 #orcishA {
@@ -130,7 +130,7 @@ span {
 	width: 100%;
 	height: 150%;
 	color: rgba(0,0,0,0);
-	background-image: url(../img/orcishA.jpg);
+	background-image: url(orcishA.jpg);
 	background-size:100% 100%;
 }
 #ebonyA {
@@ -146,7 +146,7 @@ span {
 	width: 100%;
 	height: 150%;
 	color: rgba(0,0,0,0);
-	background-image: url(../img/ebonyA.jpg);
+	background-image: url(ebonyA.jpg);
 	background-size:100% 100%;
 }
 #daedricA {
@@ -162,7 +162,7 @@ span {
 	width: 100%;
 	height: 150%;
 	color: rgba(0,0,0,0);
-	background-image: url(../img/daedricA.jpg);
+	background-image: url(daedricA.jpg);
 	background-size:100% 100%;
 }
 #dragonA {
@@ -178,7 +178,7 @@ span {
 	width: 100%;
 	height: 150%;
 	color: rgba(0,0,0,0);
-	background-image: url(../img/dragonA.jpg);
+	background-image: url(dragonA.jpg);
 	background-size:100% 100%;
 }
 #wooden {
@@ -193,7 +193,7 @@ span {
 	width: 100%;
 	height: 80%;
 	color: rgba(0,0,0,0);
-	background-image: url(../img/wooden.jpg);
+	background-image: url(wooden.jpg);
 	background-size:100% 100%;
 }
 #ironS {
@@ -209,7 +209,7 @@ span {
 	width: 100%;
 	height: 80%;
 	color: rgba(0,0,0,0);
-	background-image: url(../img/ironS.jpg);
+	background-image: url(ironS.jpg);
 	background-size:100% 100%;
 }
 #steelS {
@@ -225,7 +225,7 @@ span {
 	width: 100%;
 	height: 80%;
 	color: rgba(0,0,0,0);
-	background-image: url(../img/steelS.jpg);
+	background-image: url(steelS.jpg);
 	background-size:100% 100%;
 }
 #steelpS {
@@ -241,7 +241,7 @@ span {
 	width: 100%;
 	height: 80%;
 	color: rgba(0,0,0,0);
-	background-image: url(../img/steelpS.jpg);
+	background-image: url(steelpS.jpg);
 	background-size:100% 100%;
 }
 #dwarvenS {
@@ -257,7 +257,7 @@ span {
 	width: 100%;
 	height: 80%;
 	color: rgba(0,0,0,0);
-	background-image: url(../img/dwarvenS.jpg);
+	background-image: url(dwarvenS.jpg);
 	background-size:100% 100%;
 }
 #orcishS {
@@ -273,7 +273,7 @@ span {
 	width: 100%;
 	height: 80%;
 	color: rgba(0,0,0,0);
-	background-image: url(../img/orcishS.jpg);
+	background-image: url(orcishS.jpg);
 	background-size:100% 100%;
 }
 #ebonyS {
@@ -289,7 +289,7 @@ span {
 	width: 100%;
 	height: 80%;
 	color: rgba(0,0,0,0);
-	background-image: url(../img/ebonyS.jpg);
+	background-image: url(ebonyS.jpg);
 	background-size:100% 100%;
 }
 #daedricS {
@@ -305,7 +305,7 @@ span {
 	width: 100%;
 	height: 80%;
 	color: rgba(0,0,0,0);
-	background-image: url(../img/daedricS.jpg);
+	background-image: url(daedricS.jpg);
 	background-size:100% 100%;
 }
 #dragonS {
@@ -321,7 +321,7 @@ span {
 	width: 100%;
 	height: 80%;
 	color: rgba(0,0,0,0);
-	background-image: url(../img/dragonS.jpg);
+	background-image: url(dragonS.jpg);
 	background-size:100% 100%;
 }
 #sps {
@@ -331,7 +331,7 @@ span {
 	width: 32%;
 	position: absolute;
 	left: 33.5%;
-	background-image: url(../img/septims.jpg);
+	background-image: url(septims.jpg);
 	background-size:100% 100px;;
 }
 #ss {
@@ -359,7 +359,7 @@ span {
 	left: 33.5%;
 	top: 90px;
 	height: 550px;
-	background-image: url(../img/scenery.jpg);
+	background-image: url(scenery.jpg);
 	background-size:100% 100%;
 }
 #spc {
