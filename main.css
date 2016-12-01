@@ -3,6 +3,10 @@ body {
 	background-size:100% 800px;;
 	background-repeat: no-repeat;
 }
+#footer {
+	top: 650px;
+	position: fixed;
+}
 #suprise {
 	color: #ff6600;
 	margin-left: 37.5%;
