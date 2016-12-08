@@ -2,17 +2,17 @@ var steelpS = 0;
 var steelpSCount= 0;
 
 function buysteelpS(){ //steelpS Armor
-		var steelpSCost = Math.floor(90000 * Math.pow(1.7,steelpSCount)); //Starting cost
+		var steelpSCost = Math.floor(230000 * Math.pow(1.7,steelpSCount)); //Starting cost
 		if (septim >= steelpSCost){
 		steelpS = steelpS + 0;
 		steelpSCount = steelpSCount + 1;
 		septim = septim - steelpSCost;
-		spc = spc + 98;
-		x = x + 98;
+		spc = spc + 172;
+		x = x + 172;
 		document.getElementById('septims').innerHTML = septim.toFixed(0);
 		document.getElementById('septimpc').innerHTML = spc;
 		};
-		var nextsteelpSCost = Math.floor(90000 * Math.pow(1.7,steelpSCount)); //Updates Cost
+		var nextsteelpSCost = Math.floor(230000 * Math.pow(1.7,steelpSCount)); //Updates Cost
 		document.getElementById('steelpSCost').innerHTML = nextsteelpSCost;
 	};
 	

@@ -3,10 +3,11 @@
 	<head>
 		<link rel="stylesheet" href="main.css">
 		<link rel="icon" href="skyrim.ico">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<title> 0 septims </title>
 	</head>
 	
-	<body>
+	<body onload="load()">
 		<div id="sps">
 		
 			<h1> Septims: <span id="septims">0</span> </h1>
@@ -27,9 +28,13 @@
 		
 		<div id="sClick">
 			
-			<button onClick="sClick(x)" class="sClick"> <img class="skyrim" src="skyrim.png"> </button>
+			<button onClick="sClick(x)" class="sClick"> <img id="noclick" class="skyrim"> </button>
 			
 			<button onclick="hide()" id="randomevent"> Click me for free septims! </button>
+			
+			<button onclick="save()"> Save </button>
+			
+			<button onclick="DeleteGame()"> Delete Save </button>
 		
 		</div>
 		
@@ -67,9 +72,19 @@
 					
 				</div>
 				
+				<div id="dwarvenS">
+				
+					<span>Dwarven Sword, Gives +98, Cost: <span id="dwarvenSCost">90000</span></span>
+					
+					<br>
+					
+					<button id="dwarvenSBuy" onclick="buydwarvenS()"> . </button>
+					
+				</div>
+				
 				<div id="steelpS">
 				
-					<span>Skyforge Steel Sword, Gives +98, Cost: <span id="steelpSCost">90000</span></span>
+					<span>Skyforge Steel Sword, Gives +239, Cost: <span id="steelpSCost">230000</span></span>
 					
 					<br>
 					
@@ -77,15 +92,6 @@
 					
 				</div>
 				
-				<div id="dwarvenS">
-				
-					<span>Dwarven Sword, Gives +239, Cost: <span id="dwarvenSCost">230000</span></span>
-					
-					<br>
-					
-					<button id="dwarvenSBuy" onclick="buydwarvenS()"> . </button>
-					
-				</div>
 				
 				<div id="orcishS">
 				
@@ -162,23 +168,23 @@
 				
 				</div>
 				
-				<div id="steelpA">
-				
-					<span>Steel Plate Armor, Gives +89, Cost: <span id="steelpACost">55000</span></span>
-					
-					<br>
-					
-					<button id="steelpABuy" onclick="buysteelpA()"> . </button>
-				
-				</div>
-				
 				<div id="dwarvenA">
 				
-					<span>Dwarven Armor, Gives +172, Cost: <span id="dwarvenACost">150000</span></span>
+					<span>Dwarven Armor, Gives +89, Cost: <span id="dwarvenACost">55000</span></span>
 					
 					<br>
 					
 					<button id="dwarvenABuy" onclick="buydwarvenA()"> . </button>
+				
+				</div>
+				
+				<div id="steelpA">
+				
+					<span>Steel Plate Armor, Gives +172, Cost: <span id="steelpACost">150000</span></span>
+					
+					<br>
+					
+					<button id="steelpABuy" onclick="buysteelpA()"> . </button>
 				
 				</div>
 				
@@ -231,11 +237,7 @@
 		</div>
 	</body>
 	
-	<script src="click.js"></script>
-	<script src="randomevent.js"></script>
-	<script src="save.js"></script>
-	<script src="leather.js"></script>
-	<script src="wooden.js"></script>
+	<script src="main.js"></script>
 	<script src="ironA.js"></script>
 	<script src="ironS.js"></script>
 	<script src="steelS.js"></script>
