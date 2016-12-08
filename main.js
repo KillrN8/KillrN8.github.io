@@ -3,7 +3,7 @@ var x = 1;
 var sps = 0;
 var spc = 1;
 
-function sClick(x) { //Main Clicking Source
+function sClick(x) { //Clicking source
 		septim = septim + x;
 		document.getElementById("septims").innerHTML = septim.toFixed(0);
 	};
@@ -57,7 +57,7 @@ function buyWood(){ //wood Armor
 			nextwoodCost = nextwoodCost;
 	}, 1000);
 	
-var interval = [500, 60000, 60000, 60000, 90000, 90000, 120000, 150000];
+var interval = [500, 60000, 60000, 60000, 90000, 90000, 120000, 150000]; //sets golden septim's random spawn times
 var div = document.getElementById('randomevent');
 function hide(){
   div.style.visibility = "hidden";
@@ -74,7 +74,7 @@ function showIn(delay) {
 }
 showIn(randomInterval());
 
-$(document).ready(function() {
+$(document).ready(function() { //makes clicking image become smaller when you are holding it down
     $("img#noclick").mousedown(function() {
         $(this).attr("id", 'yesclick');
       })
